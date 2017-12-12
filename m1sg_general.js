@@ -15,4 +15,4 @@ $.extend({
 		}
 		return element_select;
 	}
-})
+});
