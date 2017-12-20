@@ -18,7 +18,7 @@ $.extend({
 	/**
 	 * [general_timestamp_time 日期时间字符串和时间戳相互转换]
 	 * @param  {[number or string]} time [传入时间戳或日期时间字符串]
-	 * @param  {[string]} form 			 [不同的时间格式名称]
+	 * @param  {[string]} form 	     [不同的时间格式名称]
 	 * @return {[number or string]}      [返回转化后的时间戳或日期时间字符串]
 	 */
 	general_timestamp_time:function(time,form){
