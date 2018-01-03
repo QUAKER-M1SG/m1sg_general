@@ -96,5 +96,16 @@ $.extend({
 			break;
 		};
 		return result;
+	},
+	/**
+	 * [general_factorial 阶乘函数]
+	 * @param  {[number]} num [阶乘数字]
+	 * @return {[number]}     [计算值]
+	 */
+	general_factorial:function(num){
+		if (num < 1)
+			return 1;
+		else
+			return num * arguments.callee(num - 1);
 	}
 });
