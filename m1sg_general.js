@@ -108,4 +108,15 @@ $.extend({
 		else
 			return num * arguments.callee(num - 1);
 	}
+	/**
+	 * [general_arr_del_element 根据值删除数组中元素]
+	 * @param  {[array]} arr     [需要删除元素的数组]
+	 * @param  {[object]} element [指定要从数组中删除的元素]
+	 * @return {[array]}         [返回被删除了指定元素的数组]
+	 */
+	general_arr_del_element:function(arr,element){
+		var _arr = arr;
+		_arr.splice($.inArray(element,_arr),1);
+		return _arr;
+	}
 });
